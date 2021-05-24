@@ -1,0 +1,9 @@
+E:\mtrps\lab1_restaurant\bin\Debug\lab1_restaurant.exe.config
+E:\mtrps\lab1_restaurant\bin\Debug\lab1_restaurant.exe
+E:\mtrps\lab1_restaurant\bin\Debug\lab1_restaurant.pdb
+E:\mtrps\lab1_restaurant\obj\Debug\lab1_restaurant.csprojAssemblyReference.cache
+E:\mtrps\lab1_restaurant\obj\Debug\lab1_restaurant.csproj.CoreCompileInputs.cache
+E:\mtrps\lab1_restaurant\obj\Debug\lab1_restaurant.exe
+E:\mtrps\lab1_restaurant\obj\Debug\lab1_restaurant.pdb
+E:\mtrps\lab1_restaurant\bin\Debug\RestaurantDB.mdf
+E:\mtrps\lab1_restaurant\bin\Debug\RestaurantDB_log.ldf
