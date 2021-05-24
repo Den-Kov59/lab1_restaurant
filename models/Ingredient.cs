@@ -8,17 +8,19 @@ namespace lab1_restaurant.core
 {
     public class Ingredient
     {
-        string Name { get; }
+        public int Id { get; }
+        public string Name { get; }
         public bool isUseEl { get; }
-        public Ingredient(string name, bool electricityStatus)
+        public Ingredient(int Id,string name, bool electricityStatus)
         {
+            this.Id = Id;
             this.Name = name;
             this.isUseEl = electricityStatus;
         }
 
         public override string ToString()
         {
-            return Name;
+            return Id+"."+Name;
         }
         public override bool Equals(Object obj)
         {

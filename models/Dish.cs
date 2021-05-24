@@ -8,17 +8,18 @@ namespace lab1_restaurant.core
 {
     public class Dish
     {
-        string Name;
-        int time;
-        double weight;
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int time { get; set; }
+        public double weight { get; set; }
 
-        public Dictionary<Ingredient, double> ingridients { get; }
-        public Dish(string name, int time, double weight, Dictionary<Ingredient, double> ingr)
+        public Dictionary<Ingredient, double> ingridients { get; set; }
+        public Dish(int id,string name, int time, double weight)
         {
+            this.Id = id;
             Name = name;
             this.time = time;
             this.weight = weight;
-            ingridients = ingr;
         }
         string ingrStr()
         {

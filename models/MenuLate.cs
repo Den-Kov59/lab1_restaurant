@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab1_restaurant.core
 {
-    public class MenuLate: Menu
+    public class MenuLate: Menu, IMenu
     {
         private List<Dish> _dishes = new List<Dish>();
         public List<Dish> dishes

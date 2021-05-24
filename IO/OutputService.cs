@@ -9,18 +9,14 @@ namespace lab1_restaurant.IO
 {
     public class OutputService
     {
-        private List<Dish> dishes;
-        public void GetDishes(DateTime time,MenuExplorer menu)
-        {
-            menu.loadIng();
-            dishes = menu.getMenu(time);
-        }
+        private Serving _serving=new Serving();
+        private IMenu Menu;
         public void callMenu(DateTime time,MenuExplorer menu)
         {
             Console.WriteLine("Menu");
             int iter = 1;
-            GetDishes(time,menu);
-            foreach (Dish dish in dishes)
+            Menu = menu.getMenu(time);
+            foreach (Dish dish in Menu.Dishes)
             {
                 Console.WriteLine($"{iter}. {dish}");
                 iter++;
@@ -29,10 +25,9 @@ namespace lab1_restaurant.IO
         }
         public void order(int dishNum,MenuExplorer menu)
         {
-            //Console.WriteLine(dishes.Count);
-            if (menu.decIngred(dishNum, dishes))
+            if (menu.decIngred(dishNum))
             {
-                Console.WriteLine($"Success!, your {dishes[dishNum-1]} is ready");
+                Console.WriteLine($"Success!, your {Menu.Dishes[dishNum-1]} is ready");
             }
             else { Console.WriteLine("Not enough ingridients"); }
         }

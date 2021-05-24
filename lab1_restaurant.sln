@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab1_restaurant", "lab1_restaurant.csproj", "{641890E2-51C1-4ADA-970B-D3C38A02F12E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMVP", "..\WinFormsMVP\WinFormsMVP.csproj", "{A25AA9FB-8346-4A05-BDF5-1C53DA1B7422}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TestDB", "..\TestDB\TestDB.sqlproj", "{BC1B3CB7-E643-488E-9349-3F1EA8EDB35A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{641890E2-51C1-4ADA-970B-D3C38A02F12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641890E2-51C1-4ADA-970B-D3C38A02F12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{641890E2-51C1-4ADA-970B-D3C38A02F12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25AA9FB-8346-4A05-BDF5-1C53DA1B7422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25AA9FB-8346-4A05-BDF5-1C53DA1B7422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25AA9FB-8346-4A05-BDF5-1C53DA1B7422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25AA9FB-8346-4A05-BDF5-1C53DA1B7422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1B3CB7-E643-488E-9349-3F1EA8EDB35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1B3CB7-E643-488E-9349-3F1EA8EDB35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1B3CB7-E643-488E-9349-3F1EA8EDB35A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC1B3CB7-E643-488E-9349-3F1EA8EDB35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1B3CB7-E643-488E-9349-3F1EA8EDB35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1B3CB7-E643-488E-9349-3F1EA8EDB35A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

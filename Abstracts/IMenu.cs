@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace lab1_restaurant.core
 {
-    public class Menu
+    public interface IMenu
     {
-        public List<Dish> Dishes { get; }
-        
-        
+        List<Dish> Dishes { get; set; }
+        Dish getDish(int dishNum);
+        List<Dish> CheckDishesAvailable(Storage storage);
+
     }
 }

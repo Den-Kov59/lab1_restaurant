@@ -1,4 +1,5 @@
 ﻿using lab1_restaurant.IO;
+using lab1_restaurant.Logic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,11 +18,12 @@ namespace lab1_restaurant
             MenuExplorer menu = new MenuExplorer();
             string closeTime = "23:30";
             DateTime time = DateTime.Parse(closeTime);
-            output.callMenu(time,menu);
-            input.readOrder(time,output,menu);
-            output.order(2,menu);
-            input.readOrder(time,output,menu);
-
+              output.callMenu(time,menu);
+              input.readOrder(time,output,menu);
+              output.order(2,menu);
+            EditMenu edit = new EditMenu();
+            input.AddingDish(edit);
+            input.readOrder(time, output, menu);
         }
     }
 }
