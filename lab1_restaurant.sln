@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab1_restaurant", "lab1_res
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMVP", "WinFormsMVP\WinFormsMVP.csproj", "{A25AA9FB-8346-4A05-BDF5-1C53DA1B7422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRest", "WpfRest\WpfRest.csproj", "{37015B8D-0614-4317-90DB-27CD5962C768}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A25AA9FB-8346-4A05-BDF5-1C53DA1B7422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A25AA9FB-8346-4A05-BDF5-1C53DA1B7422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A25AA9FB-8346-4A05-BDF5-1C53DA1B7422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37015B8D-0614-4317-90DB-27CD5962C768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37015B8D-0614-4317-90DB-27CD5962C768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37015B8D-0614-4317-90DB-27CD5962C768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37015B8D-0614-4317-90DB-27CD5962C768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
